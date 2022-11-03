@@ -14,15 +14,73 @@
     padding-block: 2rem;
     border-radius: 0.313rem top;
     background-color: white;
-    
 }
-.esquerdinha{
-   
+.esquerda{
     padding: 1.5rem;
     background-color: var(--Cyan);
 }
-.direitinha{
-    
+
+.direita{
     background-color: var( --light-cyan);
     padding: 1.5rem;
+    border-bottom-left-radius: 5px;
+}
+
+.direita p {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: white;
+    opacity: 0.75;
+}
+
+#esq_first {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
+
+#esq_second {
+    color: white;
+    opacity: 0.5;
+}
+
+#div_esq {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 0.25rem;
+
+}
+
+#direct {
+    color: white;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+
+.bottom {
+    padding-block: 1rem;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    line-height: 1.125rem;
+    border: none;
+    background-color: var(--Bright-Yellow);
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+    text-decoration: none;
+}
+
+.direita{
+    color: var(--light-cyan);
+    padding: 1.5rem;
+    border-radius: bottom;
+}
+
+.p_direita {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: white;
+    opacity: 0.75;
 }

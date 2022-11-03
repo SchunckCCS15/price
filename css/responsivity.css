@@ -1,0 +1,57 @@
+@media(min-width:650px) {
+    .infer{
+        display: flex;
+    }
+
+    .esquerda {
+        width: 100vh;
+        padding: 2.5rem;
+        border-bottom-left-radius: 0.5rem;
+    }
+
+    .direita{
+        padding: 2.5rem;
+        width: 100%;
+        border-bottom-left-radius: none;
+        border-bottom-right-radius: 0.5rem;
+    }
+
+    main {
+        max-width: 40rem;
+        padding: 0;
+    }
+
+    body {
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .super {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        padding: 2.5rem;
+    }
+
+    h1  {
+        font-size: 24px;
+    }
+
+    .first {
+        font-size: 18px;
+    }
+
+    .second {
+        font-size: 8px;
+    }
+
+    .esquerda{
+        border-bottom-left-radius: 8px;
+    }
+
+    .direita {
+        border-bottom-left-radius: none;
+        border-bottom-right-radius: 8px;
+    }
+}
